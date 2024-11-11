@@ -29,3 +29,9 @@ We modified the original training script and used the command to predict and inf
 ```
 python src/evaluate.py phytase onehot --n_seeds=1 --n_threads=1 --n_train=-1
 ```
+
+## User Interface
+As an early effort, we sought to replace python command lines with natual langauage, which can be achieved by leveraging assistant API. Users can run demo.py to ask for zero-shot predictions of AtHMT for example or expand the current collection of functions. 
+```
+python demo.py
+```
