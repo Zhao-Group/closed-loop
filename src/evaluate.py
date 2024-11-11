@@ -1,6 +1,6 @@
 '''
 Script obtained from https://github.com/chloechsu/combining-evolutionary-and-assay-labelled-data
-Evaluate predictive performance of predictors in parallel with multiprocessing.
+
 '''
 import argparse
 from multiprocessing import Process, JoinableQueue
@@ -10,7 +10,7 @@ import os
 import pandas as pd
 
 from utils import parse_vars, merge_dfs
-from original_eval import run_from_queue
+from modified_eval import run_from_queue
 from predictors import get_predictor_names 
 
 
